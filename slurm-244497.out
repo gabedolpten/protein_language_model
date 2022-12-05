@@ -1,0 +1,1154 @@
+
+Command to create ssh tunnel:
+ssh -N -f -L 1402:argo-25:1402 gdolsten@argo-comp2.princeton.edu
+Use a Browser on your local machine to go to:
+localhost:1402  (prefix w/ https:// if using password)
+
+/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/bin/python
+/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/bin/jupyter
+[W 2022-12-04 11:40:40.574 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-12-04 11:40:40.574 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-12-04 11:40:40.575 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-12-04 11:40:40.575 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-12-04 11:40:40.581 LabApp] JupyterLab extension loaded from /Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jupyterlab
+[I 2022-12-04 11:40:40.581 LabApp] JupyterLab application directory is /Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/share/jupyter/lab
+[I 11:40:40.584 NotebookApp] Serving notebooks from local directory: /Genomics/pritykinlab/gabe/proteins
+[I 11:40:40.585 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 11:40:40.585 NotebookApp] http://argo-25:1402/?token=8cda0384c31b97dfcb9abfe600320afbab7f0dcb46edc0b7
+[I 11:40:40.585 NotebookApp]  or http://127.0.0.1:1402/?token=8cda0384c31b97dfcb9abfe600320afbab7f0dcb46edc0b7
+[I 11:40:40.585 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:40:40.593 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Genomics/argo/users/gdolsten/.local/share/jupyter/runtime/nbserver-2090052-open.html
+    Or copy and paste one of these URLs:
+        http://argo-25:1402/?token=8cda0384c31b97dfcb9abfe600320afbab7f0dcb46edc0b7
+     or http://127.0.0.1:1402/?token=8cda0384c31b97dfcb9abfe600320afbab7f0dcb46edc0b7
+[W 11:40:43.576 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 11:40:44.290 NotebookApp] Kernel started: 14554558-8339-4ade-8272-c9fcde4d607d, name: python3
+[I 11:42:44.554 NotebookApp] Saving file at /Protein language model.ipynb
+[W 11:42:44.554 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 11:43:40.491 NotebookApp] Starting buffering for 14554558-8339-4ade-8272-c9fcde4d607d:9832d922524f48b1af63ec51bf39e67f
+[I 11:51:12.328 NotebookApp] Restoring connection for 14554558-8339-4ade-8272-c9fcde4d607d:9832d922524f48b1af63ec51bf39e67f
+[I 11:53:45.091 NotebookApp] Saving file at /Protein language model.ipynb
+[W 11:53:45.091 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 11:55:44.230 NotebookApp] Saving file at /Protein language model.ipynb
+[W 11:55:44.231 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 11:57:19.343 NotebookApp] Saving file at /Protein language model.ipynb
+[W 11:57:19.343 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 11:57:45.031 NotebookApp] Saving file at /Protein language model.ipynb
+[W 11:57:45.032 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 11:59:44.715 NotebookApp] Saving file at /Protein language model.ipynb
+[W 11:59:44.715 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 12:00:56.005 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 12:00:56.156 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 12:00:56.296 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 12:00:56.660 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 12:01:44.093 NotebookApp] Saving file at /Protein language model.ipynb
+[W 12:01:44.093 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 12:02:53.864 NotebookApp] Saving file at /Protein language model.ipynb
+[W 12:02:53.864 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 12:03:43.954 NotebookApp] Saving file at /Protein language model.ipynb
+[W 12:03:43.954 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 12:05:43.958 NotebookApp] Saving file at /Protein language model.ipynb
+[W 12:05:43.959 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 12:07:43.950 NotebookApp] Saving file at /Protein language model.ipynb
+[W 12:07:43.951 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 12:09:30.685 NotebookApp] Starting buffering for 14554558-8339-4ade-8272-c9fcde4d607d:9832d922524f48b1af63ec51bf39e67f
+[W 15:03:18.385 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:03:25.609 NotebookApp] Starting buffering for 14554558-8339-4ade-8272-c9fcde4d607d:107194999e8a46cbb732d24f93b613bf
+[W 15:03:25.831 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:05:27.679 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:05:27.680 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:06:55.705 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:06:55.705 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:06:57.641 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:06:57.641 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:07:26.628 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:07:26.629 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:07:27.972 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:07:27.972 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:07:31.747 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:07:31.747 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:07:40.089 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:07:40.090 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:07:42.448 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:07:42.448 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:07:44.341 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:07:44.341 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:09:35.331 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:09:35.331 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:11:25.836 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:11:25.837 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:13:26.740 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:13:26.741 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:14:23.921 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:14:23.921 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:14:58.515 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:14:58.516 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:15:13.609 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:15:13.609 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:15:26.375 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:15:26.375 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:15:48.657 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:15:48.658 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:16:09.929 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:16:09.929 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:16:26.438 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:16:26.438 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:17:45.386 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:17:45.386 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:17:53.992 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:17:53.992 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:18:09.772 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:18:09.772 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:18:49.057 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:18:49.057 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:18:55.018 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:18:55.018 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:19:13.918 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:19:13.919 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:19:18.269 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:19:18.270 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:19:26.366 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:19:26.367 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:19:28.466 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:19:28.466 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:19:38.743 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:19:38.744 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:19:41.576 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:19:41.576 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:20:44.585 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:20:44.585 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:20:51.593 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:20:51.593 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:20:53.754 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:20:53.755 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:20:59.336 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:20:59.336 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:21:02.248 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:21:02.248 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:21:08.900 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:21:08.901 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:21:15.638 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:21:15.639 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:21:16.161 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:21:16.161 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:22:39.457 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:22:39.457 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:22:40.557 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:22:40.558 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:22:54.054 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:22:54.055 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:23:26.396 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:23:26.397 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:24:47.712 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:24:47.712 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:25:26.438 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:25:26.439 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:25:36.583 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:25:36.583 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:27:26.757 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:27:26.760 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:29:26.394 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:29:26.394 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:30:44.688 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:30:44.688 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:31:27.182 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:31:27.182 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:33:30.540 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:33:30.540 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:34:38.922 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:34:39.085 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:34:39.233 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:35:26.626 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:35:26.626 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:37:28.009 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:37:28.009 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:39:26.493 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:39:26.493 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:40:41.669 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:40:41.670 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:41:26.368 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:41:26.368 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:41:41.514 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:41:41.515 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:43:04.684 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:43:04.685 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:43:26.383 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:43:26.384 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:43:36.023 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:43:36.181 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:43:36.338 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:43:36.529 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:44:06.972 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:44:06.972 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:44:08.209 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:44:08.210 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:44:09.693 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:44:09.693 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:44:49.304 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:44:49.501 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:44:49.544 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:45:28.395 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:45:28.395 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:47:26.429 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:47:26.429 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:49:26.411 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:49:26.412 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:49:42.845 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:49:43.004 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:49:43.260 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:49:43.390 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:49:43.628 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:49:44.056 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:51:26.407 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:51:26.408 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:53:26.496 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:53:26.497 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:55:26.907 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:55:26.908 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:56:43.699 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:56:43.699 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:57:26.401 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:57:26.401 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:59:26.382 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:59:26.382 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 15:59:33.335 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:59:33.495 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:59:33.654 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:59:34.105 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 15:59:48.573 NotebookApp] Saving file at /Protein language model.ipynb
+[W 15:59:48.574 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:00:52.342 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:00:52.423 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:00:52.668 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:00:52.749 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:00:52.929 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:00:58.999 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:00:59.168 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:00:59.317 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:00:59.492 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:01:19.257 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:01:19.406 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:01:19.551 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:01:26.422 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:01:26.423 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:03:26.756 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:03:26.756 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:04:48.034 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:04:48.034 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:05:01.228 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:05:01.228 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:05:26.396 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:05:26.396 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:07:26.767 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:07:26.772 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:09:27.050 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:09:27.055 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:11:26.440 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:11:26.440 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:13:27.174 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:13:27.175 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:15:26.444 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:15:26.445 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:17:26.771 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:17:26.772 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:19:26.423 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:19:26.424 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:21:28.101 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:21:28.102 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:22:17.858 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:22:18.046 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:22:18.196 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:23:26.428 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:23:26.428 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:24:59.600 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:24:59.798 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:24:59.935 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:25:00.022 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:25:10.845 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:25:11.008 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:25:11.175 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:25:11.410 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:25:26.431 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:25:26.431 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:26:40.932 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:26:41.092 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:27:26.424 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:27:26.425 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:29:26.552 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:29:26.563 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:31:26.581 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:31:26.581 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:33:26.437 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:33:26.438 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:35:26.500 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:35:26.501 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:37:26.508 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:37:26.509 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:39:26.512 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:39:26.513 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:40:07.017 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:40:07.018 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:40:12.435 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:40:12.436 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:40:19.276 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:40:19.277 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:41:26.731 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:41:26.731 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:43:26.550 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:43:26.551 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:45:26.555 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:45:26.556 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:47:26.569 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:47:26.570 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:48:38.479 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:48:38.480 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:49:26.475 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:49:26.475 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:50:31.918 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:50:32.082 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:50:32.247 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 16:51:26.478 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:51:26.478 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:53:26.750 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:53:26.751 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:55:26.538 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:55:26.538 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:57:26.568 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:57:26.569 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:59:27.937 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:59:27.938 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 16:59:59.674 NotebookApp] Saving file at /Protein language model.ipynb
+[W 16:59:59.674 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:01:26.512 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:01:26.513 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:03:26.553 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:03:26.554 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:05:26.440 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:05:26.440 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:05:34.863 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:05:34.863 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:05:41.675 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:05:41.676 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:05:57.619 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:05:57.620 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:07:26.440 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:07:26.440 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:09:26.428 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:09:26.433 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:11:26.474 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:11:26.485 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:11:58.422 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:11:58.422 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:13:26.677 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:13:26.678 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:15:18.698 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:15:18.698 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:15:26.394 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:15:26.394 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:16:20.229 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:16:20.229 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:17:26.384 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:17:26.385 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:18:27.558 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:18:27.559 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:18:58.393 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:18:58.559 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:18:58.727 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:19:26.400 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:19:26.400 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:20:37.819 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:20:37.819 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:20:48.455 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:20:48.609 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:20:48.775 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:20:48.961 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:21:26.398 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:21:26.398 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:22:14.865 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:22:15.023 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:22:15.181 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:23:26.359 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:23:26.359 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:23:51.158 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:23:51.159 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:25:26.409 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:25:26.411 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:27:26.769 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:27:26.780 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:29:26.466 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:29:26.467 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:31:26.434 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:31:26.435 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:35:26.478 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:35:26.478 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:37:19.599 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:37:19.736 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:37:19.815 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:37:19.992 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:37:27.130 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:37:27.130 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:39:26.608 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:39:26.619 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:41:26.447 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:41:26.458 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:43:08.474 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:43:08.655 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:43:08.841 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:43:26.481 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:43:26.481 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:45:26.892 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:45:26.903 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:46:10.793 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:46:10.976 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:46:11.107 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:46:11.293 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:47:26.509 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:47:26.509 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:49:26.462 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:49:26.463 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:51:26.543 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:51:26.544 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:52:28.664 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:52:28.871 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:52:29.191 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:52:29.194 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:53:26.663 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:53:26.663 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:53:40.585 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:53:40.732 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:53:40.873 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:53:41.074 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:55:08.852 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:55:08.928 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:55:09.225 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:55:09.268 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:55:09.457 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:55:26.422 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:55:26.422 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:55:56.907 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:55:57.055 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:55:57.234 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:57:26.459 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:57:26.461 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 17:57:41.433 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:57:41.580 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:57:41.765 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 17:59:26.485 NotebookApp] Saving file at /Protein language model.ipynb
+[W 17:59:26.495 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:01:27.009 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:01:27.020 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:01:48.050 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:01:48.201 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:01:48.341 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:01:48.517 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:01:48.720 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:03:26.952 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:03:26.963 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:05:26.889 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:05:26.899 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:07:27.014 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:07:27.025 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:09:27.030 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:09:27.041 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:11:26.997 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:11:27.002 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:13:27.075 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:13:27.086 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:15:27.073 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:15:27.084 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:17:27.000 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:17:27.004 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:18:50.319 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:18:50.459 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:18:50.620 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:19:26.541 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:19:26.541 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:19:28.541 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:19:58.546 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:19:58.714 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:19:58.871 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:19:59.074 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:21:26.571 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:21:26.582 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:21:32.606 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:21:32.788 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:21:32.954 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:21:33.141 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:23:31.442 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:23:31.443 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:26:17.068 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:26:17.228 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:26:17.502 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:27:42.134 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:27:42.134 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:31:30.993 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:31:30.994 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:35:27.070 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:35:27.080 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:37:27.170 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:37:27.179 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:38:17.090 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:38:17.255 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:38:17.432 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:38:17.674 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:38:39.064 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:38:39.064 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:39:11.403 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:39:11.404 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:39:14.310 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:39:14.310 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:39:24.506 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:39:24.635 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:39:24.808 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:39:25.019 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:39:26.619 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:39:26.620 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:41:26.942 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:41:26.950 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:43:14.888 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:43:15.040 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:43:15.194 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:43:15.382 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:43:26.507 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:43:26.507 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:44:52.191 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:44:52.406 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:44:52.735 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:44:52.737 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:45:26.597 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:45:26.597 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:46:25.024 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:46:25.178 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:46:54.217 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:46:54.374 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:46:54.533 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:46:54.708 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:46:54.898 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:47:17.041 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:47:17.041 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:47:26.425 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:47:26.425 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:47:40.296 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:47:40.491 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:47:40.668 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:47:40.874 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:49:27.043 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:49:27.043 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:50:01.601 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:50:01.721 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:50:02.004 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:51:20.387 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:51:20.533 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:51:20.703 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:51:26.471 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:51:26.471 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:53:26.514 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:53:26.525 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:55:26.478 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:55:26.490 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:57:26.511 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:57:26.523 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 18:58:19.347 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:58:19.433 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:58:19.663 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:58:19.748 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:58:19.921 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:58:20.146 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:59:18.369 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:59:18.531 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:59:18.697 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 18:59:26.396 NotebookApp] Saving file at /Protein language model.ipynb
+[W 18:59:26.397 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:01:26.932 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:01:26.940 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:03:27.124 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:03:27.129 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:05:40.829 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:05:40.840 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:07:26.541 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:07:26.552 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:09:26.652 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:09:26.671 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:11:05.442 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:11:05.599 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:11:05.896 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:11:05.946 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:11:26.548 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:11:26.549 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:13:26.586 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:13:26.587 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:14:47.499 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:14:47.652 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:14:47.917 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:15:10.553 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:15:10.719 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:15:10.874 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:15:11.097 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:15:26.506 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:15:26.507 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:15:28.182 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:15:28.339 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:15:28.516 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:15:28.685 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:16:11.254 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:16:11.401 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:16:11.723 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:17:26.460 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:17:26.465 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:19:26.897 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:19:26.905 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:21:26.523 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:21:26.529 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:21:30.261 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:21:30.412 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:21:30.583 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 19:23:26.905 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:23:26.916 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:25:27.085 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:25:27.091 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:27:26.869 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:27:26.871 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:29:30.913 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:29:30.924 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:31:26.650 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:31:26.661 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:33:26.585 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:33:26.593 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:35:26.685 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:35:26.690 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:37:26.597 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:37:26.618 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:39:26.700 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:39:26.712 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:41:26.706 NotebookApp] Saving file at /Protein language model.ipynb
+[W 19:41:26.727 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 19:42:34.379 NotebookApp] Starting buffering for 14554558-8339-4ade-8272-c9fcde4d607d:a09d6dfd315a46608d56cafe2940655d
+[W 20:03:52.188 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 20:03:52.793 NotebookApp] Discarding 1129 buffered messages for 14554558-8339-4ade-8272-c9fcde4d607d:a09d6dfd315a46608d56cafe2940655d
+[I 20:05:53.041 NotebookApp] Saving file at /Protein language model.ipynb
+[W 20:05:53.042 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 20:07:52.852 NotebookApp] Saving file at /Protein language model.ipynb
+[W 20:07:52.863 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 20:09:52.850 NotebookApp] Saving file at /Protein language model.ipynb
+[W 20:09:52.860 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 20:11:52.997 NotebookApp] Saving file at /Protein language model.ipynb
+[W 20:11:53.005 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 20:13:52.899 NotebookApp] Saving file at /Protein language model.ipynb
+[W 20:13:52.912 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 20:15:53.005 NotebookApp] Saving file at /Protein language model.ipynb
+[W 20:15:53.010 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 20:16:05.094 NotebookApp] Starting buffering for 14554558-8339-4ade-8272-c9fcde4d607d:13359e80f7c140918852d38cab5f923e
+[W 22:25:32.305 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 22:25:34.609 NotebookApp] Discarding 2964 buffered messages for 14554558-8339-4ade-8272-c9fcde4d607d:13359e80f7c140918852d38cab5f923e
+[I 22:27:33.960 NotebookApp] Saving file at /Protein language model.ipynb
+[W 22:27:33.960 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 22:29:33.917 NotebookApp] Saving file at /Protein language model.ipynb
+[W 22:29:33.917 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 22:31:34.060 NotebookApp] Saving file at /Protein language model.ipynb
+[W 22:31:34.062 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 22:33:34.800 NotebookApp] Saving file at /Protein language model.ipynb
+[W 22:33:34.805 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 22:35:34.987 NotebookApp] Saving file at /Protein language model.ipynb
+[W 22:35:34.999 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 22:37:35.858 NotebookApp] Saving file at /Protein language model.ipynb
+[W 22:37:35.870 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 22:39:36.042 NotebookApp] Saving file at /Protein language model.ipynb
+[W 22:39:36.053 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 22:41:35.699 NotebookApp] Saving file at /Protein language model.ipynb
+[W 22:41:35.710 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 22:43:35.155 NotebookApp] Saving file at /Protein language model.ipynb
+[W 22:43:35.164 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 22:45:36.627 NotebookApp] Saving file at /Protein language model.ipynb
+[W 22:45:36.639 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 22:47:35.244 NotebookApp] Saving file at /Protein language model.ipynb
+[W 22:47:35.250 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 22:49:35.017 NotebookApp] Saving file at /Protein language model.ipynb
+[W 22:49:35.025 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 22:51:36.210 NotebookApp] Saving file at /Protein language model.ipynb
+[W 22:51:36.222 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 22:53:35.296 NotebookApp] Saving file at /Protein language model.ipynb
+[W 22:53:35.307 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 22:55:35.308 NotebookApp] Saving file at /Protein language model.ipynb
+[W 22:55:35.318 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 22:57:01.129 NotebookApp] Starting buffering for 14554558-8339-4ade-8272-c9fcde4d607d:fdfe13bfe5e440359531a4f08541d423
+[I 22:57:30.672 NotebookApp] Restoring connection for 14554558-8339-4ade-8272-c9fcde4d607d:fdfe13bfe5e440359531a4f08541d423
+[I 22:57:30.683 NotebookApp] Replaying 93 buffered messages
+[I 22:57:56.808 NotebookApp] Saving file at /Protein language model.ipynb
+[W 22:57:56.808 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 22:59:39.517 NotebookApp] Starting buffering for 14554558-8339-4ade-8272-c9fcde4d607d:fdfe13bfe5e440359531a4f08541d423
+[I 23:05:02.273 NotebookApp] Restoring connection for 14554558-8339-4ade-8272-c9fcde4d607d:fdfe13bfe5e440359531a4f08541d423
+[I 23:05:02.279 NotebookApp] Replaying 1019 buffered messages
+[I 23:05:27.904 NotebookApp] Saving file at /Protein language model.ipynb
+[W 23:05:27.904 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 23:08:59.876 NotebookApp] Saving file at /Protein language model.ipynb
+[W 23:08:59.889 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 23:12:29.854 NotebookApp] Saving file at /Protein language model.ipynb
+[W 23:12:29.859 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 23:12:55.897 NotebookApp] Starting buffering for 14554558-8339-4ade-8272-c9fcde4d607d:fdfe13bfe5e440359531a4f08541d423
+[I 23:29:34.032 NotebookApp] Saving file at /Protein language model.ipynb
+[W 23:29:34.053 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[W 23:29:35.529 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 23:29:38.586 NotebookApp] Discarding 3168 buffered messages for 14554558-8339-4ade-8272-c9fcde4d607d:fdfe13bfe5e440359531a4f08541d423
+[I 23:50:20.852 NotebookApp] Starting buffering for 14554558-8339-4ade-8272-c9fcde4d607d:991aa75a1324490b8a7e726722eccf3b
+[W 23:50:21.784 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 23:50:23.227 NotebookApp] Discarding 9 buffered messages for 14554558-8339-4ade-8272-c9fcde4d607d:991aa75a1324490b8a7e726722eccf3b
+[I 23:52:24.231 NotebookApp] Saving file at /Protein language model.ipynb
+[W 23:52:24.239 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 00:14:23.703 NotebookApp] Saving file at /Protein language model.ipynb
+[W 00:14:23.704 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 00:16:23.927 NotebookApp] Saving file at /Protein language model.ipynb
+[W 00:16:23.927 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 00:18:23.676 NotebookApp] Saving file at /Protein language model.ipynb
+[W 00:18:23.676 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 00:20:23.821 NotebookApp] Saving file at /Protein language model.ipynb
+[W 00:20:23.822 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 00:21:21.036 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 00:21:21.182 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 00:21:21.352 NotebookApp] Kernel interrupted: 14554558-8339-4ade-8272-c9fcde4d607d
+[I 00:22:23.866 NotebookApp] Saving file at /Protein language model.ipynb
+[W 00:22:23.867 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 00:24:23.886 NotebookApp] Saving file at /Protein language model.ipynb
+[W 00:24:23.886 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 00:25:44.124 NotebookApp] Saving file at /Protein language model.ipynb
+[W 00:25:44.124 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[I 00:26:24.157 NotebookApp] Saving file at /Protein language model.ipynb
+[I 00:28:23.968 NotebookApp] Saving file at /Protein language model.ipynb
+[I 00:30:23.357 NotebookApp] Saving file at /Protein language model.ipynb
+[I 00:32:23.328 NotebookApp] Saving file at /Protein language model.ipynb
+[I 00:34:23.302 NotebookApp] Saving file at /Protein language model.ipynb
+[I 00:34:55.214 NotebookApp] Saving file at /Protein language model.ipynb
+[I 00:36:23.323 NotebookApp] Saving file at /Protein language model.ipynb
+[I 00:38:23.321 NotebookApp] Saving file at /Protein language model.ipynb
+[I 00:40:23.304 NotebookApp] Saving file at /Protein language model.ipynb
+[I 00:42:23.228 NotebookApp] Saving file at /Protein language model.ipynb
+[I 00:44:23.394 NotebookApp] Saving file at /Protein language model.ipynb
+[I 00:45:22.838 NotebookApp] Saving file at /Protein language model.ipynb
+[I 00:46:23.236 NotebookApp] Saving file at /Protein language model.ipynb
+[I 00:48:23.350 NotebookApp] Saving file at /Protein language model.ipynb
+[I 00:50:23.348 NotebookApp] Saving file at /Protein language model.ipynb
+[I 00:52:14.720 NotebookApp] Saving file at /Protein language model.ipynb
+[W 00:52:23.504 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[E 00:52:23.686 NotebookApp] nbconvert failed: No filter named 'escape_html_keep_quotes'.
+    Traceback (most recent call last):
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/notebook/nbconvert/handlers.py", line 129, in get
+        output, resources = exporter.from_notebook_node(
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/html.py", line 210, in from_notebook_node
+        return super().from_notebook_node(nb, resources, **kw)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 392, in from_notebook_node
+        output = self.template.render(nb=nb_copy, resources=resources)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 151, in template
+        self._template_cached = self._load_template()
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 362, in _load_template
+        return self.environment.get_template(template_file)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 997, in get_template
+        return self._load_template(name, globals)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 958, in _load_template
+        template = self.loader.load(self, name, self.make_globals(globals))
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/loaders.py", line 563, in load
+        return loader.load(environment, name, globals)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/loaders.py", line 137, in load
+        code = environment.compile(source, name, filename)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 757, in compile
+        self.handle_exception(source=source_hint)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 925, in handle_exception
+        raise rewrite_traceback_stack(source=source)
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/lab/index.html.j2", line 12, in template
+        {% set nb_title = nb.metadata.get('title', resources['metadata']['name']) | escape_html_keep_quotes %}
+    jinja2.exceptions.TemplateAssertionError: No filter named 'escape_html_keep_quotes'.
+[W 00:52:23.757 NotebookApp] 500 GET /nbconvert/html/Protein%20language%20model.ipynb?download=true (172.17.8.61): nbconvert failed: No filter named 'escape_html_keep_quotes'.
+[E 00:52:23.785 NotebookApp] {
+      "Host": "localhost:1402",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "Referer": "http://localhost:1402/notebooks/Protein%20language%20model.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+    }
+[E 00:52:23.785 NotebookApp] 500 GET /nbconvert/html/Protein%20language%20model.ipynb?download=true (172.17.8.61) 609.880000ms referer=http://localhost:1402/notebooks/Protein%20language%20model.ipynb
+[I 00:52:41.539 NotebookApp] Saving file at /Protein language model.ipynb
+[W 00:52:41.726 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[E 00:52:41.881 NotebookApp] nbconvert failed: No filter named 'escape_html_keep_quotes'.
+    Traceback (most recent call last):
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/notebook/nbconvert/handlers.py", line 129, in get
+        output, resources = exporter.from_notebook_node(
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/html.py", line 210, in from_notebook_node
+        return super().from_notebook_node(nb, resources, **kw)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 392, in from_notebook_node
+        output = self.template.render(nb=nb_copy, resources=resources)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 151, in template
+        self._template_cached = self._load_template()
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 362, in _load_template
+        return self.environment.get_template(template_file)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 997, in get_template
+        return self._load_template(name, globals)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 958, in _load_template
+        template = self.loader.load(self, name, self.make_globals(globals))
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/loaders.py", line 563, in load
+        return loader.load(environment, name, globals)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/loaders.py", line 137, in load
+        code = environment.compile(source, name, filename)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 757, in compile
+        self.handle_exception(source=source_hint)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 925, in handle_exception
+        raise rewrite_traceback_stack(source=source)
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/lab/index.html.j2", line 12, in template
+        {% set nb_title = nb.metadata.get('title', resources['metadata']['name']) | escape_html_keep_quotes %}
+    jinja2.exceptions.TemplateAssertionError: No filter named 'escape_html_keep_quotes'.
+[W 00:52:41.882 NotebookApp] 500 GET /nbconvert/html/Protein%20language%20model.ipynb?download=true (172.17.8.61): nbconvert failed: No filter named 'escape_html_keep_quotes'.
+[E 00:52:41.883 NotebookApp] {
+      "Host": "localhost:1402",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "Referer": "http://localhost:1402/notebooks/Protein%20language%20model.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+    }
+[E 00:52:41.883 NotebookApp] 500 GET /nbconvert/html/Protein%20language%20model.ipynb?download=true (172.17.8.61) 181.420000ms referer=http://localhost:1402/notebooks/Protein%20language%20model.ipynb
+[W 00:52:50.255 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[E 00:52:50.630 NotebookApp] nbconvert failed: Pandoc wasn't found.
+    Please check that pandoc is installed:
+    https://pandoc.org/installing.html
+    Traceback (most recent call last):
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/notebook/nbconvert/handlers.py", line 129, in get
+        output, resources = exporter.from_notebook_node(
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/pdf.py", line 168, in from_notebook_node
+        latex, resources = super().from_notebook_node(
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/latex.py", line 72, in from_notebook_node
+        return super().from_notebook_node(nb, resources, **kw)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 392, in from_notebook_node
+        output = self.template.render(nb=nb_copy, resources=resources)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 1291, in render
+        self.environment.handle_exception()
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 925, in handle_exception
+        raise rewrite_traceback_stack(source=source)
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/index.tex.j2", line 8, in top-level template code
+        ((* extends cell_style *))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/style_jupyter.tex.j2", line 176, in top-level template code
+        \prompt{(((prompt)))}{(((prompt_color)))}{(((execution_count)))}{(((extra_space)))}
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/base.tex.j2", line 7, in top-level template code
+        ((*- extends 'document_contents.tex.j2' -*))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/document_contents.tex.j2", line 51, in top-level template code
+        ((*- block figure scoped -*))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/display_priority.j2", line 5, in top-level template code
+        ((*- extends 'null.j2' -*))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/null.j2", line 30, in top-level template code
+        ((*- block body -*))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/base.tex.j2", line 215, in block 'body'
+        ((( super() )))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/null.j2", line 32, in block 'body'
+        ((*- block any_cell scoped -*))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/null.j2", line 85, in block 'any_cell'
+        ((*- block markdowncell scoped-*)) ((*- endblock markdowncell -*))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/document_contents.tex.j2", line 68, in block 'markdowncell'
+        ((( cell.source | citation2latex | strip_files_prefix | convert_pandoc('markdown+tex_math_double_backslash', 'json',extra_args=[]) | resolve_references | convert_pandoc('json','latex'))))
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/filters/pandoc.py", line 24, in convert_pandoc
+        return pandoc(source, from_format, to_format, extra_args=extra_args)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/utils/pandoc.py", line 52, in pandoc
+        check_pandoc_version()
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/utils/pandoc.py", line 100, in check_pandoc_version
+        v = get_pandoc_version()
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/utils/pandoc.py", line 77, in get_pandoc_version
+        raise PandocMissing()
+    nbconvert.utils.pandoc.PandocMissing: Pandoc wasn't found.
+    Please check that pandoc is installed:
+    https://pandoc.org/installing.html
+[W 00:52:50.699 NotebookApp] 500 GET /nbconvert/pdf/Protein%20language%20model.ipynb?download=true (172.17.8.61): nbconvert failed: Pandoc wasn't found.
+    Please check that pandoc is installed:
+    https://pandoc.org/installing.html
+[E 00:52:50.700 NotebookApp] {
+      "Host": "localhost:1402",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "Referer": "http://localhost:1402/notebooks/Protein%20language%20model.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+    }
+[E 00:52:50.700 NotebookApp] 500 GET /nbconvert/pdf/Protein%20language%20model.ipynb?download=true (172.17.8.61) 485.440000ms referer=http://localhost:1402/notebooks/Protein%20language%20model.ipynb
+[W 00:52:57.541 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[E 00:52:57.542 NotebookApp] nbconvert failed: Pyppeteer is not installed to support Web PDF conversion. Please install `nbconvert[webpdf]` to enable.
+    Traceback (most recent call last):
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/webpdf.py", line 68, in _check_launch_reqs
+        from pyppeteer import launch
+    ModuleNotFoundError: No module named 'pyppeteer'
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/notebook/nbconvert/handlers.py", line 129, in get
+        output, resources = exporter.from_notebook_node(
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/webpdf.py", line 143, in from_notebook_node
+        self._check_launch_reqs()
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/webpdf.py", line 71, in _check_launch_reqs
+        raise RuntimeError("Pyppeteer is not installed to support Web PDF conversion. "
+    RuntimeError: Pyppeteer is not installed to support Web PDF conversion. Please install `nbconvert[webpdf]` to enable.
+[W 00:52:57.556 NotebookApp] 500 GET /nbconvert/webpdf/Protein%20language%20model.ipynb?download=true (172.17.8.61): nbconvert failed: Pyppeteer is not installed to support Web PDF conversion. Please install `nbconvert[webpdf]` to enable.
+[E 00:52:57.556 NotebookApp] {
+      "Host": "localhost:1402",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "Referer": "http://localhost:1402/notebooks/Protein%20language%20model.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+    }
+[E 00:52:57.556 NotebookApp] 500 GET /nbconvert/webpdf/Protein%20language%20model.ipynb?download=true (172.17.8.61) 73.760000ms referer=http://localhost:1402/notebooks/Protein%20language%20model.ipynb
+[I 00:53:37.825 NotebookApp] Saving file at /Protein language model.ipynb
+[W 00:53:38.077 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[E 00:53:38.232 NotebookApp] nbconvert failed: No filter named 'escape_html_keep_quotes'.
+    Traceback (most recent call last):
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/notebook/nbconvert/handlers.py", line 129, in get
+        output, resources = exporter.from_notebook_node(
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/html.py", line 210, in from_notebook_node
+        return super().from_notebook_node(nb, resources, **kw)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 392, in from_notebook_node
+        output = self.template.render(nb=nb_copy, resources=resources)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 151, in template
+        self._template_cached = self._load_template()
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 362, in _load_template
+        return self.environment.get_template(template_file)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 997, in get_template
+        return self._load_template(name, globals)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 958, in _load_template
+        template = self.loader.load(self, name, self.make_globals(globals))
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/loaders.py", line 563, in load
+        return loader.load(environment, name, globals)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/loaders.py", line 137, in load
+        code = environment.compile(source, name, filename)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 757, in compile
+        self.handle_exception(source=source_hint)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 925, in handle_exception
+        raise rewrite_traceback_stack(source=source)
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/lab/index.html.j2", line 12, in template
+        {% set nb_title = nb.metadata.get('title', resources['metadata']['name']) | escape_html_keep_quotes %}
+    jinja2.exceptions.TemplateAssertionError: No filter named 'escape_html_keep_quotes'.
+[W 00:53:38.234 NotebookApp] 500 GET /nbconvert/html/Protein%20language%20model.ipynb?download=true (172.17.8.61): nbconvert failed: No filter named 'escape_html_keep_quotes'.
+[E 00:53:38.235 NotebookApp] {
+      "Host": "localhost:1402",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "Referer": "http://localhost:1402/notebooks/Protein%20language%20model.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+    }
+[E 00:53:38.235 NotebookApp] 500 GET /nbconvert/html/Protein%20language%20model.ipynb?download=true (172.17.8.61) 189.860000ms referer=http://localhost:1402/notebooks/Protein%20language%20model.ipynb
+[I 00:53:41.797 NotebookApp] Saving file at /Protein language model.ipynb
+[W 00:53:50.881 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[E 00:53:51.065 NotebookApp] nbconvert failed: Pandoc wasn't found.
+    Please check that pandoc is installed:
+    https://pandoc.org/installing.html
+    Traceback (most recent call last):
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/notebook/nbconvert/handlers.py", line 129, in get
+        output, resources = exporter.from_notebook_node(
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/pdf.py", line 168, in from_notebook_node
+        latex, resources = super().from_notebook_node(
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/latex.py", line 72, in from_notebook_node
+        return super().from_notebook_node(nb, resources, **kw)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 392, in from_notebook_node
+        output = self.template.render(nb=nb_copy, resources=resources)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 1291, in render
+        self.environment.handle_exception()
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 925, in handle_exception
+        raise rewrite_traceback_stack(source=source)
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/index.tex.j2", line 8, in top-level template code
+        ((* extends cell_style *))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/style_jupyter.tex.j2", line 176, in top-level template code
+        \prompt{(((prompt)))}{(((prompt_color)))}{(((execution_count)))}{(((extra_space)))}
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/base.tex.j2", line 7, in top-level template code
+        ((*- extends 'document_contents.tex.j2' -*))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/document_contents.tex.j2", line 51, in top-level template code
+        ((*- block figure scoped -*))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/display_priority.j2", line 5, in top-level template code
+        ((*- extends 'null.j2' -*))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/null.j2", line 30, in top-level template code
+        ((*- block body -*))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/base.tex.j2", line 215, in block 'body'
+        ((( super() )))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/null.j2", line 32, in block 'body'
+        ((*- block any_cell scoped -*))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/null.j2", line 85, in block 'any_cell'
+        ((*- block markdowncell scoped-*)) ((*- endblock markdowncell -*))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/document_contents.tex.j2", line 68, in block 'markdowncell'
+        ((( cell.source | citation2latex | strip_files_prefix | convert_pandoc('markdown+tex_math_double_backslash', 'json',extra_args=[]) | resolve_references | convert_pandoc('json','latex'))))
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/filters/pandoc.py", line 24, in convert_pandoc
+        return pandoc(source, from_format, to_format, extra_args=extra_args)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/utils/pandoc.py", line 52, in pandoc
+        check_pandoc_version()
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/utils/pandoc.py", line 100, in check_pandoc_version
+        v = get_pandoc_version()
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/utils/pandoc.py", line 77, in get_pandoc_version
+        raise PandocMissing()
+    nbconvert.utils.pandoc.PandocMissing: Pandoc wasn't found.
+    Please check that pandoc is installed:
+    https://pandoc.org/installing.html
+[W 00:53:51.066 NotebookApp] 500 GET /nbconvert/pdf/Protein%20language%20model.ipynb?download=true (172.17.8.61): nbconvert failed: Pandoc wasn't found.
+    Please check that pandoc is installed:
+    https://pandoc.org/installing.html
+[E 00:53:51.067 NotebookApp] {
+      "Host": "localhost:1402",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "Referer": "http://localhost:1402/notebooks/Protein%20language%20model.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+    }
+[E 00:53:51.067 NotebookApp] 500 GET /nbconvert/pdf/Protein%20language%20model.ipynb?download=true (172.17.8.61) 210.840000ms referer=http://localhost:1402/notebooks/Protein%20language%20model.ipynb
+[W 00:55:04.046 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[E 00:55:04.232 NotebookApp] nbconvert failed: Pandoc wasn't found.
+    Please check that pandoc is installed:
+    https://pandoc.org/installing.html
+    Traceback (most recent call last):
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/notebook/nbconvert/handlers.py", line 129, in get
+        output, resources = exporter.from_notebook_node(
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/pdf.py", line 168, in from_notebook_node
+        latex, resources = super().from_notebook_node(
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/latex.py", line 72, in from_notebook_node
+        return super().from_notebook_node(nb, resources, **kw)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 392, in from_notebook_node
+        output = self.template.render(nb=nb_copy, resources=resources)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 1291, in render
+        self.environment.handle_exception()
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 925, in handle_exception
+        raise rewrite_traceback_stack(source=source)
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/index.tex.j2", line 8, in top-level template code
+        ((* extends cell_style *))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/style_jupyter.tex.j2", line 176, in top-level template code
+        \prompt{(((prompt)))}{(((prompt_color)))}{(((execution_count)))}{(((extra_space)))}
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/base.tex.j2", line 7, in top-level template code
+        ((*- extends 'document_contents.tex.j2' -*))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/document_contents.tex.j2", line 51, in top-level template code
+        ((*- block figure scoped -*))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/display_priority.j2", line 5, in top-level template code
+        ((*- extends 'null.j2' -*))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/null.j2", line 30, in top-level template code
+        ((*- block body -*))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/base.tex.j2", line 215, in block 'body'
+        ((( super() )))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/null.j2", line 32, in block 'body'
+        ((*- block any_cell scoped -*))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/null.j2", line 85, in block 'any_cell'
+        ((*- block markdowncell scoped-*)) ((*- endblock markdowncell -*))
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/latex/document_contents.tex.j2", line 68, in block 'markdowncell'
+        ((( cell.source | citation2latex | strip_files_prefix | convert_pandoc('markdown+tex_math_double_backslash', 'json',extra_args=[]) | resolve_references | convert_pandoc('json','latex'))))
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/filters/pandoc.py", line 24, in convert_pandoc
+        return pandoc(source, from_format, to_format, extra_args=extra_args)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/utils/pandoc.py", line 52, in pandoc
+        check_pandoc_version()
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/utils/pandoc.py", line 100, in check_pandoc_version
+        v = get_pandoc_version()
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/utils/pandoc.py", line 77, in get_pandoc_version
+        raise PandocMissing()
+    nbconvert.utils.pandoc.PandocMissing: Pandoc wasn't found.
+    Please check that pandoc is installed:
+    https://pandoc.org/installing.html
+[W 00:55:04.234 NotebookApp] 500 GET /nbconvert/pdf/Protein%20language%20model.ipynb?download=true (172.17.8.61): nbconvert failed: Pandoc wasn't found.
+    Please check that pandoc is installed:
+    https://pandoc.org/installing.html
+[E 00:55:04.235 NotebookApp] {
+      "Host": "localhost:1402",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "Referer": "http://localhost:1402/notebooks/Protein%20language%20model.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+    }
+[E 00:55:04.235 NotebookApp] 500 GET /nbconvert/pdf/Protein%20language%20model.ipynb?download=true (172.17.8.61) 233.620000ms referer=http://localhost:1402/notebooks/Protein%20language%20model.ipynb
+[W 00:55:12.767 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[E 00:55:12.923 NotebookApp] nbconvert failed: No filter named 'escape_html_keep_quotes'.
+    Traceback (most recent call last):
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/notebook/nbconvert/handlers.py", line 129, in get
+        output, resources = exporter.from_notebook_node(
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/html.py", line 210, in from_notebook_node
+        return super().from_notebook_node(nb, resources, **kw)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 392, in from_notebook_node
+        output = self.template.render(nb=nb_copy, resources=resources)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 151, in template
+        self._template_cached = self._load_template()
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 362, in _load_template
+        return self.environment.get_template(template_file)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 997, in get_template
+        return self._load_template(name, globals)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 958, in _load_template
+        template = self.loader.load(self, name, self.make_globals(globals))
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/loaders.py", line 563, in load
+        return loader.load(environment, name, globals)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/loaders.py", line 137, in load
+        code = environment.compile(source, name, filename)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 757, in compile
+        self.handle_exception(source=source_hint)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 925, in handle_exception
+        raise rewrite_traceback_stack(source=source)
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/lab/index.html.j2", line 12, in template
+        {% set nb_title = nb.metadata.get('title', resources['metadata']['name']) | escape_html_keep_quotes %}
+    jinja2.exceptions.TemplateAssertionError: No filter named 'escape_html_keep_quotes'.
+[W 00:55:12.923 NotebookApp] 500 GET /nbconvert/html/Protein%20language%20model.ipynb?download=true (172.17.8.61): nbconvert failed: No filter named 'escape_html_keep_quotes'.
+[E 00:55:12.924 NotebookApp] {
+      "Host": "localhost:1402",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "Referer": "http://localhost:1402/notebooks/Protein%20language%20model.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+    }
+[E 00:55:12.924 NotebookApp] 500 GET /nbconvert/html/Protein%20language%20model.ipynb?download=true (172.17.8.61) 183.050000ms referer=http://localhost:1402/notebooks/Protein%20language%20model.ipynb
+[I 00:56:23.289 NotebookApp] Saving file at /Protein language model.ipynb
+[I 00:56:38.639 NotebookApp] Saving file at /Protein language model.ipynb
+[W 00:56:38.863 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[E 00:56:39.019 NotebookApp] nbconvert failed: No filter named 'escape_html_keep_quotes'.
+    Traceback (most recent call last):
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/notebook/nbconvert/handlers.py", line 129, in get
+        output, resources = exporter.from_notebook_node(
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/html.py", line 210, in from_notebook_node
+        return super().from_notebook_node(nb, resources, **kw)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 392, in from_notebook_node
+        output = self.template.render(nb=nb_copy, resources=resources)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 151, in template
+        self._template_cached = self._load_template()
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 362, in _load_template
+        return self.environment.get_template(template_file)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 997, in get_template
+        return self._load_template(name, globals)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 958, in _load_template
+        template = self.loader.load(self, name, self.make_globals(globals))
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/loaders.py", line 563, in load
+        return loader.load(environment, name, globals)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/loaders.py", line 137, in load
+        code = environment.compile(source, name, filename)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 757, in compile
+        self.handle_exception(source=source_hint)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 925, in handle_exception
+        raise rewrite_traceback_stack(source=source)
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/lab/index.html.j2", line 12, in template
+        {% set nb_title = nb.metadata.get('title', resources['metadata']['name']) | escape_html_keep_quotes %}
+    jinja2.exceptions.TemplateAssertionError: No filter named 'escape_html_keep_quotes'.
+[W 00:56:39.020 NotebookApp] 500 GET /nbconvert/html/Protein%20language%20model.ipynb?download=true (172.17.8.61): nbconvert failed: No filter named 'escape_html_keep_quotes'.
+[E 00:56:39.021 NotebookApp] {
+      "Host": "localhost:1402",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "Referer": "http://localhost:1402/notebooks/Protein%20language%20model.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+    }
+[E 00:56:39.021 NotebookApp] 500 GET /nbconvert/html/Protein%20language%20model.ipynb?download=true (172.17.8.61) 195.730000ms referer=http://localhost:1402/notebooks/Protein%20language%20model.ipynb
+[I 00:56:51.483 NotebookApp] Saving file at /Protein language model.ipynb
+[W 00:56:51.816 NotebookApp] Notebook Protein language model.ipynb is not trusted
+[E 00:56:51.974 NotebookApp] nbconvert failed: No filter named 'escape_html_keep_quotes'.
+    Traceback (most recent call last):
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/notebook/nbconvert/handlers.py", line 129, in get
+        output, resources = exporter.from_notebook_node(
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/html.py", line 210, in from_notebook_node
+        return super().from_notebook_node(nb, resources, **kw)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 392, in from_notebook_node
+        output = self.template.render(nb=nb_copy, resources=resources)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 151, in template
+        self._template_cached = self._load_template()
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/nbconvert/exporters/templateexporter.py", line 362, in _load_template
+        return self.environment.get_template(template_file)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 997, in get_template
+        return self._load_template(name, globals)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 958, in _load_template
+        template = self.loader.load(self, name, self.make_globals(globals))
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/loaders.py", line 563, in load
+        return loader.load(environment, name, globals)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/loaders.py", line 137, in load
+        code = environment.compile(source, name, filename)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 757, in compile
+        self.handle_exception(source=source_hint)
+      File "/Genomics/argo/users/gdolsten/.conda/envs/mamba/envs/pytorch2/lib/python3.10/site-packages/jinja2/environment.py", line 925, in handle_exception
+        raise rewrite_traceback_stack(source=source)
+      File "/Genomics/argo/users/gdolsten/.local/share/jupyter/nbconvert/templates/lab/index.html.j2", line 12, in template
+        {% set nb_title = nb.metadata.get('title', resources['metadata']['name']) | escape_html_keep_quotes %}
+    jinja2.exceptions.TemplateAssertionError: No filter named 'escape_html_keep_quotes'.
+[W 00:56:51.975 NotebookApp] 500 GET /nbconvert/html/Protein%20language%20model.ipynb?download=false (172.17.8.61): nbconvert failed: No filter named 'escape_html_keep_quotes'.
+[E 00:56:51.975 NotebookApp] {
+      "Host": "localhost:1402",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "Referer": "http://localhost:1402/notebooks/Protein%20language%20model.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+    }
+[E 00:56:51.975 NotebookApp] 500 GET /nbconvert/html/Protein%20language%20model.ipynb?download=false (172.17.8.61) 182.730000ms referer=http://localhost:1402/notebooks/Protein%20language%20model.ipynb
+[I 00:58:23.589 NotebookApp] Saving file at /Protein language model.ipynb
